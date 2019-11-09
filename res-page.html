@@ -19,63 +19,65 @@
   <body class="res-page">
 
     <!--==============navbar section=======-->    
-    <header>
-        <div class="container-fluid"> 
-            <div class="row">
+    <div class="container-fluid">
+        <div class="row">
             <nav class="navbar navbar-light" style="background-color: #ECECEC;">
-            <div class="col-md-4">
-                <i class="fas fa-shopping-cart"></i>  
-                <div class="dropdown">
-                <i class="fas fa-user-circle dropbtn "></i>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
-                </div>
-                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="dropdown">
+                        <i class="fas fa-user-circle dropbtn "></i>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
                     </div>
-                    
-                    <div class="col-md-4">
-                <img class="logo" src="images/sofra%20logo-1@2x.png"> 
+                </div>
+
+                <div class="col-md-4 logo-up">
+                    <img class="logo" src="images/sofra%20logo-1@2x.png">
                 </div>
                 <div class="col-md-4 burger">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-hamburger"></i>
-                </button>
-                    </div>
-            
-            
-            <div class="collapse navbar-collapse " id="navbarsExample01">
-                <ul class="navbar-nav custom">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            
-            
-                </ul>
-            
-            </div>
-            </nav>
-                </div>   
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01"
+                        aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-hamburger"></i>
+                    </button>
                 </div>
-    </header>
+
+
+                <div class="collapse navbar-collapse " id="navbarsExample01">
+                    <ul class="navbar-nav custom">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+
 
 
     <!--==============First section=======-->   
     <section id="header">
-        <img class="website-name" src="images/res-img.png" alt="" style="margin: 0 auto;">
-        <h1 class="res-name">دجاج كنتاكي</h1> 
-        <div class="rating d-flex justify-content-center">
-            <span class="holder">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-            </span>
+        <div class="container">
+            <div class="header-desc">
+                <img class="website-name" src="images/res-img.png" alt="" style="margin: 0 auto;">
+                <h1 class="res-name">دجاج كنتاكي</h1>
+                <ul class="list-unstyled">
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                    <li class="fa fa-star"></li>
+                </ul>
+            </div>
         </div>
     </section>     
 
@@ -311,26 +313,38 @@
 
 
     <!-- start footer section -->
-    <footer id="footer">
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <img class="edit" src="images/edit-min.png">
-                    <h5 class="edit footer-text ">من نحن</h5>
-                    <p class="footer-text2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa tempore sequi minima eveniet, rerum, maxime sed veniam beatae repellat reiciendis quas aspernatur! Adipisci vel et, sapiente ullam id soluta corrupti!</p>
-                    <div class="social-links">
-                        <i class=" fb fab fa-facebook"></i>
-                        <i class=" insta fab fa-instagram"></i>
-                        <i class=" tweet fab fa-twitter"></i>
+                    <div class="footer-desc">
+                        <div class="who-us">
+                            <img src="images/edit-min.png" alt="Edit-pencil">
+                            <h3>من نحن</h3>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Nam enim voluptatibus ullam deleniti culpa accusamus <br> fugit doloremque blanditiis provident pariatur, maiores harum error<br> porro nihil quidem eligendi magnam sunt aut?</p>
+                        <ul class="list-unstyled links">
+                            <li>
+                                <a href="#" class="fab fa-facebook-square"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fab fa-twitter"></a>
+                            </li>
+                            <li>
+                                <a href="#" class="fab fa-instagram"></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-
                 <div class="col-md-6">
-                    <img id="footer-logo" src="images/sofra logo-1.png">
+                    <a href="index.html" class="footer-logo">
+                        <img src="images/sofra logo-1.png" alt="Footer-logo">
+                    </a>
                 </div>
             </div>
         </div>
     </footer>
+
 
         
         
